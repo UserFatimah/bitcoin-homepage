@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background: darkblue;
+    color: white;
+}
+header ul  {
+    display: flex;
+}
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section {
+    transform: translateY(50%);
+}
